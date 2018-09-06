@@ -49,6 +49,11 @@ footer {
   color: #7ac9d3;
 }
 
+.dropdown-item:hover {
+  background-color: blue;
+  transition: 0.5s ease;
+}
+
 /* Brand Icon */
 nav img {
   width: 30px;
@@ -58,6 +63,12 @@ nav img {
 /* Cart & Badge */
 .cart {
   position: relative;
+}
+
+.cart:hover {
+  border-top: 3px solid #9a82b9;
+  border-radius: 25%;
+  transition: ease;
 }
 
 .cart .badge {
@@ -79,6 +90,7 @@ nav img {
   box-shadow: 0 0 1px 1px #2c3531;
   background-color: #9a82b9;
   color: white;
+  transition: ease;
 }
 
 .btn:active {
@@ -110,6 +122,16 @@ nav img {
   background-size: 85% 85%;
 }
 
+.carousel-control-next-icon:hover {
+  background-color: royalblue;
+  transition: ease;
+}
+
+.carousel-control-prev-icon:hover {
+  background-color: royalblue;
+  transition: ease;
+}
+
 /* Product Info Section */
 .product-info {
   margin-top: 20px;
@@ -135,6 +157,9 @@ nav img {
 /* Similar Items */
 .rec-item:hover {
   border: 1px solid #7ac9d3;
+  border-radius: 25%;
+  transition: ease;
+  background: #7ac9d3;
 }
 
 /* Chat Button for popover */
@@ -153,6 +178,7 @@ nav img {
 .chat:hover {
   background-color: white;
   color: #9a82b9;
+  transition: ease;
 }
 
 .closed-state {
