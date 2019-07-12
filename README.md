@@ -11,5 +11,6 @@ HTML Assignment
 - Contains index.html and index.css
 
 Bootstrap Assignment
-- COntains index.html and index.css as well as 1 picture (of me).
->>>>>>> Stashed changes
+- Contains index.html and index.css as well as 1 picture (of me).
+
+>>>>>>>
