@@ -7,6 +7,8 @@
     <title>Thank You - Helping Hand Home</title>
 <!--Stylesheet for Website-->
 <link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="custom.css">
+<script src="myjs.js"></script>
 
 <!--Stylesheet for Boostrap-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -52,14 +54,21 @@ footer {
         </div>
         <center><h1 class="display-3"></h1></center>
         <p class="lead">
-        <nav class="navbar navbar-collapse navbar-expand-xl navbar-light bg-light">
-            <div class="nav navbar-nav navbar-collapse navbar-expand-xl">
-                <li class="order-1" style="padding:5px; padding-right:30px; flex-wrap: no-wrap"><a class="nav-item nav-link active" href="#" style="font-size:20px;">Home</a></li>
-                <li class="order-2" style="padding:5px; padding-right:30px; flex-wrap: no-wrap"><a class="nav-item nav-link" href="#" style="font-size:20px;">Events/Programs</a></li>
-                <li class="order-3" style="padding:5px; padding-right:30px; flex-wrap: no-wrap"><a class="nav-item nav-link" href="#" style="font-size:20px;">How to Help</a></li>
-                <li class="order-4" style="padding:5px; padding-right:30px; flex-wrap: no-wrap"><a class="nav-item nav-link" href="#" style="font-size:20px;">About HHH</a></li>
+        <center><nav class="navbar navbar-collapse navbar-expand-xl navbar-light bg-light">
+            <div class="normalNavbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Events/Programs</a></li>
+                <li><a href="#">How to Help</a></li>
+                <li><a href="#">About HHH</a></li>
             </div>
-        </nav>
+            <div class="myNavbar">
+                <button class="hamburgerButton">Show Menu</button>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Events/Programs</a></li>
+                <li><a href="#">How to Help</a></li>
+                <li><a href="#">About HHH</a></li>
+            </div>
+        </nav></center>
         <div class="col-12">
             <center><p>Thank You for showing Interest in Volunteering. In a few minutes you will receive an email containing the next steps
                 in the application process.<br /><br />Thank you again for your time and we look forward to working with you!
