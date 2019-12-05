@@ -1,0 +1,54 @@
+.normalNavbar {
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.myNavbar {
+  display: none;
+}
+
+li {
+  list-style: none;
+  color: black;
+  padding-left: 10px;
+}
+
+li a {
+  color: black;
+}
+
+.hamburgerButton {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .myNavbar {
+    display: initial;
+  }
+
+  .myNavbar li {
+    display: none;
+  }
+
+  .normalNavbar {
+    display: none;
+  }
+
+  li {
+    padding-bottom: 5px;
+  }
+
+  .navContainer {
+    display: none;
+  }
+
+  .hamburgerButton {
+    display: initial;
+  }
+
+  .myNavbar {
+    display: i;
+  }
+}
